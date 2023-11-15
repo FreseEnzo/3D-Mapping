@@ -1,0 +1,487 @@
+[1.207s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.207s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=26, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc3892dec20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc3892df8b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc3892df8b0>>)
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.266s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/frese/ros2_ws'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'ignore'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'ignore_ament_install'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extensions ['colcon_pkg']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'colcon_pkg'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extensions ['colcon_meta']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'colcon_meta'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extensions ['ros']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'ros'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extensions ['cmake', 'python']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'cmake'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'python'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extensions ['python_setup_py']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2) by extension 'python_setup_py'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extensions ['ignore', 'ignore_ament_install']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'ignore'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'ignore_ament_install'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extensions ['colcon_pkg']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'colcon_pkg'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extensions ['colcon_meta']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'colcon_meta'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extensions ['ros']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'ros'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extensions ['cmake', 'python']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'cmake'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'python'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extensions ['python_setup_py']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty) by extension 'python_setup_py'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extension 'ignore'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extension 'ignore_ament_install'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extensions ['colcon_pkg']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extension 'colcon_pkg'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extensions ['colcon_meta']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extension 'colcon_meta'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extensions ['ros']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/Thirdparty/ndt_omp_ros2) by extension 'ros'
+[1.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidarslam_ros2/Thirdparty/ndt_omp_ros2' with type 'ros.ament_cmake' and name 'ndt_omp_ros2'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extensions ['ignore', 'ignore_ament_install']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extension 'ignore'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extension 'ignore_ament_install'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extensions ['colcon_pkg']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extension 'colcon_pkg'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extensions ['colcon_meta']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extension 'colcon_meta'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extensions ['ros']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/graph_based_slam) by extension 'ros'
+[1.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidarslam_ros2/graph_based_slam' with type 'ros.ament_cmake' and name 'graph_based_slam'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extensions ['ignore', 'ignore_ament_install']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extension 'ignore'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extension 'ignore_ament_install'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extensions ['colcon_pkg']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extension 'colcon_pkg'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extensions ['colcon_meta']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extension 'colcon_meta'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extensions ['ros']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam) by extension 'ros'
+[1.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidarslam_ros2/lidarslam' with type 'ros.ament_cmake' and name 'lidarslam'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extension 'ignore'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extension 'ignore_ament_install'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extensions ['colcon_pkg']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extension 'colcon_pkg'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extensions ['colcon_meta']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extension 'colcon_meta'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extensions ['ros']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/lidarslam_msgs) by extension 'ros'
+[1.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidarslam_ros2/lidarslam_msgs' with type 'ros.ament_cmake' and name 'lidarslam_msgs'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extensions ['ignore', 'ignore_ament_install']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extension 'ignore'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extension 'ignore_ament_install'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extensions ['colcon_pkg']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extension 'colcon_pkg'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extensions ['colcon_meta']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extension 'colcon_meta'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extensions ['ros']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarslam_ros2/scanmatcher) by extension 'ros'
+[1.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidarslam_ros2/scanmatcher' with type 'ros.ament_cmake' and name 'scanmatcher'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ignore'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ignore_ament_install'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['colcon_pkg']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'colcon_pkg'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['colcon_meta']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'colcon_meta'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['ros']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ros'
+[1.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_laser_scan_matcher' with type 'ros.ament_cmake' and name 'ros2_laser_scan_matcher'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore_ament_install'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_pkg']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_pkg'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_meta']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_meta'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ros']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ros'
+[1.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[1.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[1.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 32 installed packages in /home/frese/ros2_ws/install
+[1.465s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'cmake_args' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'cmake_target' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'lidarslam_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.626s] DEBUG:colcon.colcon_core.verb:Building package 'lidarslam_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/lidarslam_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/lidarslam_msgs', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/lidarslam_ros2/lidarslam_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'cmake_target' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'ndt_omp_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.642s] DEBUG:colcon.colcon_core.verb:Building package 'ndt_omp_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/ndt_omp_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/ndt_omp_ros2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/lidarslam_ros2/Thirdparty/ndt_omp_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.659s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.659s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/ros2_laser_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/ros2_laser_scan_matcher', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/ros2_laser_scan_matcher', 'symlink_install': True, 'test_result_base': None}
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.676s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.676s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/rplidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.693s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'cmake_args' from command line to 'None'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'cmake_target' from command line to 'None'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'cmake_clean_first' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'cmake_force_configure' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'ament_cmake_args' from command line to 'None'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'graph_based_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.710s] DEBUG:colcon.colcon_core.verb:Building package 'graph_based_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/graph_based_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/graph_based_slam', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/lidarslam_ros2/graph_based_slam', 'symlink_install': True, 'test_result_base': None}
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'cmake_args' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'cmake_target' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'cmake_clean_first' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'cmake_force_configure' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'ament_cmake_args' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'scanmatcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.728s] DEBUG:colcon.colcon_core.verb:Building package 'scanmatcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/scanmatcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/scanmatcher', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/lidarslam_ros2/scanmatcher', 'symlink_install': True, 'test_result_base': None}
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'cmake_args' from command line to 'None'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'cmake_target' from command line to 'None'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'cmake_clean_first' from command line to 'False'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'cmake_force_configure' from command line to 'False'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'ament_cmake_args' from command line to 'None'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'lidarslam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.746s] DEBUG:colcon.colcon_core.verb:Building package 'lidarslam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/build/lidarslam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/install/lidarslam', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/lidarslam_ros2/lidarslam', 'symlink_install': True, 'test_result_base': None}
+[1.762s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.780s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.780s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/frese/ros2_ws/src/lidarslam_ros2/lidarslam_msgs' with build type 'ament_cmake'
+[1.780s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/frese/ros2_ws/src/lidarslam_ros2/lidarslam_msgs'
+[1.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.861s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/frese/ros2_ws/src/lidarslam_ros2/Thirdparty/ndt_omp_ros2' with build type 'ament_cmake'
+[1.861s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/frese/ros2_ws/src/lidarslam_ros2/Thirdparty/ndt_omp_ros2'
+[1.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.938s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/frese/ros2_ws/src/ros2_laser_scan_matcher' with build type 'ament_cmake'
+[1.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/frese/ros2_ws/src/ros2_laser_scan_matcher'
+[1.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.016s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/frese/ros2_ws/src/rplidar_ros2' with build type 'ament_cmake'
+[2.017s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/frese/ros2_ws/src/rplidar_ros2'
+[2.036s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/frese/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[2.094s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/frese/ros2_ws/src/sllidar_ros2'
+[2.111s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.112s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/lidarslam_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/lidarslam_ros2/lidarslam_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/lidarslam_msgs
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/lidarslam_ros2/Thirdparty/ndt_omp_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/ndt_omp_ros2
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/ros2_laser_scan_matcher
+[2.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/rplidar_ros
+[2.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/sllidar_ros2
+[3.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/sllidar_ros2
+[3.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/sllidar_ros2 -- -j26 -l26
+[3.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/rplidar_ros
+[3.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/rplidar_ros -- -j26 -l26
+[3.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/sllidar_ros2 -- -j26 -l26
+[3.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/sllidar_ros2
+[3.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/rplidar_ros -- -j26 -l26
+[3.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/sllidar_ros2
+[3.719s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2' for CMake module files
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2' for CMake config files
+[3.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/lib'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/bin'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/bin'
+[3.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[3.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[3.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[3.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[3.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[3.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[3.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/rplidar_ros
+[3.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[3.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/rplidar_ros
+[3.855s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros' for CMake module files
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros' for CMake config files
+[3.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[3.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[3.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[3.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[3.880s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/lib'
+[3.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[3.914s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/bin'
+[3.914s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/bin'
+[3.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[3.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[3.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[3.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[3.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[3.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[3.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2' for CMake module files
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2' for CMake config files
+[3.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/lib'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/bin'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/sllidar_ros2/bin'
+[4.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[4.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[4.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[4.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[4.059s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros' for CMake module files
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros' for CMake config files
+[4.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[4.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/lib'
+[4.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[4.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[4.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[4.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/bin'
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[4.100s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[4.100s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/rplidar_ros/bin'
+[4.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[4.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[4.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[4.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[4.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[4.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/lidarslam_ros2/Thirdparty/ndt_omp_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/ndt_omp_ros2
+[4.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/ndt_omp_ros2 -- -j26 -l26
+[4.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/lidarslam_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/lidarslam_ros2/lidarslam_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/lidarslam_msgs
+[4.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/lidarslam_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/lidarslam_msgs -- -j26 -l26
+[4.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/ndt_omp_ros2 -- -j26 -l26
+[4.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/ndt_omp_ros2
+[4.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ndt_omp_ros2)
+[4.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/ndt_omp_ros2
+[4.980s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2' for CMake module files
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2' for CMake config files
+[4.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndt_omp_ros2', 'cmake_prefix_path')
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/cmake_prefix_path.ps1'
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/cmake_prefix_path.dsv'
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/cmake_prefix_path.sh'
+[4.999s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/lib'
+[4.999s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/bin'
+[4.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndt_omp_ros2', 'path')
+[5.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/path.ps1'
+[5.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/path.dsv'
+[5.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/path.sh'
+[5.017s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/lib/pkgconfig/ndt_omp_ros2.pc'
+[5.017s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/lib/python3.10/site-packages'
+[5.018s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/bin'
+[5.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndt_omp_ros2', 'pythonscriptspath')
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/pythonscriptspath.ps1'
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/pythonscriptspath.dsv'
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/pythonscriptspath.sh'
+[5.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.ps1'
+[5.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.sh'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.bash'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.zsh'
+[5.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/ndt_omp_ros2/share/colcon-core/packages/ndt_omp_ros2)
+[5.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ndt_omp_ros2)
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2' for CMake module files
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2' for CMake config files
+[5.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndt_omp_ros2', 'cmake_prefix_path')
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/cmake_prefix_path.ps1'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/cmake_prefix_path.dsv'
+[5.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/cmake_prefix_path.sh'
+[5.178s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/lib'
+[5.178s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/bin'
+[5.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndt_omp_ros2', 'path')
+[5.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/path.ps1'
+[5.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/path.dsv'
+[5.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/path.sh'
+[5.197s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/lib/pkgconfig/ndt_omp_ros2.pc'
+[5.198s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/lib/python3.10/site-packages'
+[5.198s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ndt_omp_ros2/bin'
+[5.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndt_omp_ros2', 'pythonscriptspath')
+[5.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/pythonscriptspath.ps1'
+[5.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/pythonscriptspath.dsv'
+[5.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/hook/pythonscriptspath.sh'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.ps1'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv'
+[5.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.sh'
+[5.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.bash'
+[5.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.zsh'
+[5.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/ndt_omp_ros2/share/colcon-core/packages/ndt_omp_ros2)
+[5.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/lidarslam_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/build/lidarslam_msgs -- -j26 -l26
+[5.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/build/lidarslam_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/lidarslam_msgs
+[5.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidarslam_msgs)
+[5.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/lidarslam_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/build/lidarslam_msgs
+[5.539s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/lidarslam_msgs' for CMake module files
+[5.540s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/lidarslam_msgs' for CMake config files
+[5.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidarslam_msgs', 'cmake_prefix_path')
+[5.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/hook/cmake_prefix_path.ps1'
+[5.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/hook/cmake_prefix_path.dsv'
+[5.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/hook/cmake_prefix_path.sh'
+[5.560s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/lidarslam_msgs/lib'
+[5.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidarslam_msgs', 'ld_library_path_lib')
+[5.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/hook/ld_library_path_lib.ps1'
+[5.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/hook/ld_library_path_lib.dsv'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/hook/ld_library_path_lib.sh'
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/lidarslam_msgs/bin'
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/lidarslam_msgs/lib/pkgconfig/lidarslam_msgs.pc'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/lidarslam_msgs/lib/python3.10/site-packages'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/lidarslam_msgs/bin'
+[5.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/package.ps1'
+[5.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/package.dsv'
+[5.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/package.sh'
+[5.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/package.bash'
+[5.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/lidarslam_msgs/share/lidarslam_msgs/package.zsh'
+[5.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/lidarslam_msgs/share/colcon-core/packages/lidarslam_msgs)
+[5.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/build/ros2_laser_scan_matcher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frese/ros2_ws/install/launch_testing_examples:/home/frese/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/frese/ros2_ws/install/examples_rclpy_minimal_service:/home/frese/ros2_ws/install/examples_rclpy_minimal_publisher:/home/frese/ros2_ws/install/examples_rclpy_minimal_client:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_server:/home/frese/ros2_ws/install/examples_rclpy_minimal_action_client:/home/frese/ros2_ws/install/examples_rclpy_guard_conditions:/home/frese/ros2_ws/install/examples_rclpy_executors:/home/frese/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/frese/ros2_ws/install/examples_rclcpp_minimal_timer:/home/frese/ros2_ws/install/examples_rclcpp_minimal_service:/home/frese/ros2_ws/install/examples_rclcpp_minimal_client:/home/frese/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/frese/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/install/ros2_laser_scan_matcher
+[5.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ros2_laser_scan_matcher' for CMake module files
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ros2_laser_scan_matcher' for CMake config files
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/bin'
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/lib/python3.10/site-packages'
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/bin'
+[5.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[5.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[5.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[5.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[5.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[5.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[5.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.778s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.807s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.823s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frese/ros2_ws/install/local_setup.ps1'
+[5.849s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/frese/ros2_ws/install/_local_setup_util_ps1.py'
+[5.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frese/ros2_ws/install/setup.ps1'
+[5.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frese/ros2_ws/install/local_setup.sh'
+[5.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/frese/ros2_ws/install/_local_setup_util_sh.py'
+[5.873s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frese/ros2_ws/install/setup.sh'
+[5.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frese/ros2_ws/install/local_setup.bash'
+[5.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frese/ros2_ws/install/setup.bash'
+[5.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/frese/ros2_ws/install/local_setup.zsh'
+[5.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/frese/ros2_ws/install/setup.zsh'

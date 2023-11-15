@@ -1,0 +1,9 @@
+{
+  "package_name": "topic_tools_interfaces",
+  "non_idl_tuples": [
+    "/home/frese/ros2_ws/src/topic_tools/topic_tools_interfaces:srv/MuxAdd.srv",
+    "/home/frese/ros2_ws/src/topic_tools/topic_tools_interfaces:srv/MuxDelete.srv",
+    "/home/frese/ros2_ws/src/topic_tools/topic_tools_interfaces:srv/MuxList.srv",
+    "/home/frese/ros2_ws/src/topic_tools/topic_tools_interfaces:srv/MuxSelect.srv"
+  ]
+}

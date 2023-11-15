@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/frese/ros2_ws/src/build/test_tf2/test_buffer_client" "/home/frese/ros2_ws/src/build/test_tf2/test_buffer_server" "/home/frese/ros2_ws/src/build/test_tf2/test_static_publisher" "TARGETS" "test_buffer_client" "test_buffer_server" "test_static_publisher" "DESTINATION" "lib/test_tf2")

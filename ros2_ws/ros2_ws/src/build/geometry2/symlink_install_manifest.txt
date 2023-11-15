@@ -1,0 +1,15 @@
+/home/frese/ros2_ws/src/install/geometry2/share/ament_index/resource_index/package_run_dependencies/geometry2
+/home/frese/ros2_ws/src/install/geometry2/share/ament_index/resource_index/parent_prefix_path/geometry2
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/environment/ament_prefix_path.sh
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/environment/ament_prefix_path.dsv
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/environment/path.sh
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/environment/path.dsv
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/local_setup.bash
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/local_setup.sh
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/local_setup.zsh
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/local_setup.dsv
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/package.dsv
+/home/frese/ros2_ws/src/install/geometry2/share/ament_index/resource_index/packages/geometry2
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/cmake/geometry2Config.cmake
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/cmake/geometry2Config-version.cmake
+/home/frese/ros2_ws/src/install/geometry2/share/geometry2/package.xml

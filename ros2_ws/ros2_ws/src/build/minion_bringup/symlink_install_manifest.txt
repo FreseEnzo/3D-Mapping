@@ -1,0 +1,17 @@
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/launch/tank_bringup_tele.launch.py
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/launch/tank_hardware.launch.py
+/home/frese/ros2_ws/src/install/minion_bringup/share/ament_index/resource_index/package_run_dependencies/minion_bringup
+/home/frese/ros2_ws/src/install/minion_bringup/share/ament_index/resource_index/parent_prefix_path/minion_bringup
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/environment/ament_prefix_path.sh
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/environment/ament_prefix_path.dsv
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/environment/path.sh
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/environment/path.dsv
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/local_setup.bash
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/local_setup.sh
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/local_setup.zsh
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/local_setup.dsv
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/package.dsv
+/home/frese/ros2_ws/src/install/minion_bringup/share/ament_index/resource_index/packages/minion_bringup
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/cmake/minion_bringupConfig.cmake
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/cmake/minion_bringupConfig-version.cmake
+/home/frese/ros2_ws/src/install/minion_bringup/share/minion_bringup/package.xml

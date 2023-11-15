@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/frese/ros2_ws/build/topic_tools_interfaces/rosidl_generator_py/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "topic_tools_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/topic_tools_interfaces")

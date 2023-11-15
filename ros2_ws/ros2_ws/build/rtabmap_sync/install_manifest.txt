@@ -1,0 +1,9 @@
+/home/frese/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+/home/frese/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+/home/frese/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+/home/frese/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+/home/frese/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+/home/frese/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+/home/frese/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+/home/frese/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+/home/frese/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake

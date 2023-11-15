@@ -1,0 +1,15 @@
+/home/frese/ros2_ws/install/lidarbot/share/ament_index/resource_index/package_run_dependencies/lidarbot
+/home/frese/ros2_ws/install/lidarbot/share/ament_index/resource_index/parent_prefix_path/lidarbot
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/environment/ament_prefix_path.sh
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/environment/ament_prefix_path.dsv
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/environment/path.sh
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/environment/path.dsv
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/local_setup.bash
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/local_setup.sh
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/local_setup.zsh
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/local_setup.dsv
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/package.dsv
+/home/frese/ros2_ws/install/lidarbot/share/ament_index/resource_index/packages/lidarbot
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/cmake/lidarbotConfig.cmake
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/cmake/lidarbotConfig-version.cmake
+/home/frese/ros2_ws/install/lidarbot/share/lidarbot/package.xml

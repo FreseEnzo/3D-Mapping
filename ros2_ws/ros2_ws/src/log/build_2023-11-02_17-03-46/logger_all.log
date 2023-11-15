@@ -1,0 +1,779 @@
+[1.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--executor', 'sequential']
+[1.148s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='sequential', parallel_workers=14, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd4d52d73a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd4d52d6830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd4d52d6830>>)
+[1.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/frese/ros2_ws/src'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ignore'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ignore_ament_install'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['colcon_pkg']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'colcon_pkg'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['colcon_meta']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'colcon_meta'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['ros']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ros'
+[1.232s] DEBUG:colcon.colcon_core.package_identification:Package 'articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore_ament_install'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_pkg']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_pkg'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_meta']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_meta'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ros']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ros'
+[1.234s] DEBUG:colcon.colcon_core.package_identification:Package 'cartographer' with type 'ros.cmake' and name 'cartographer'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['ignore', 'ignore_ament_install']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'ignore'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'ignore_ament_install'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['colcon_pkg']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'colcon_pkg'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['colcon_meta']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'colcon_meta'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['ros']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'ros'
+[1.236s] DEBUG:colcon.colcon_core.package_identification:Package 'csm' with type 'ros.ament_cmake' and name 'csm'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extensions ['ignore', 'ignore_ament_install']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'ignore'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'ignore_ament_install'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extensions ['colcon_pkg']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'colcon_pkg'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extensions ['colcon_meta']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'colcon_meta'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extensions ['ros']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'ros'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extensions ['cmake', 'python']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'cmake'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'python'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extensions ['python_setup_py']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2) by extension 'python_setup_py'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extensions ['ignore', 'ignore_ament_install']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extension 'ignore'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extension 'ignore_ament_install'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extensions ['colcon_pkg']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extension 'colcon_pkg'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extensions ['colcon_meta']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extension 'colcon_meta'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extensions ['ros']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/examples_tf2_py) by extension 'ros'
+[1.238s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/examples_tf2_py' with type 'ros.ament_python' and name 'examples_tf2_py'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extensions ['ignore', 'ignore_ament_install']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extension 'ignore'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extension 'ignore_ament_install'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extensions ['colcon_pkg']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extension 'colcon_pkg'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extensions ['colcon_meta']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extension 'colcon_meta'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extensions ['ros']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/geometry2) by extension 'ros'
+[1.239s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/geometry2' with type 'ros.ament_cmake' and name 'geometry2'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extensions ['ignore', 'ignore_ament_install']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extension 'ignore'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extension 'ignore_ament_install'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extensions ['colcon_pkg']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extension 'colcon_pkg'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extensions ['colcon_meta']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extension 'colcon_meta'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extensions ['ros']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/test_tf2) by extension 'ros'
+[1.241s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/test_tf2' with type 'ros.ament_cmake' and name 'test_tf2'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extensions ['ignore', 'ignore_ament_install']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extension 'ignore'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extension 'ignore_ament_install'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extensions ['colcon_meta']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extension 'colcon_meta'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extensions ['ros']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2) by extension 'ros'
+[1.243s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2' with type 'ros.ament_cmake' and name 'tf2'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extensions ['ignore', 'ignore_ament_install']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extension 'ignore'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extension 'ignore_ament_install'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extensions ['colcon_pkg']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extension 'colcon_pkg'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extensions ['colcon_meta']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extension 'colcon_meta'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extensions ['ros']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_bullet) by extension 'ros'
+[1.244s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_bullet' with type 'ros.ament_cmake' and name 'tf2_bullet'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extensions ['ignore', 'ignore_ament_install']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extension 'ignore'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extension 'ignore_ament_install'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extensions ['colcon_pkg']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extension 'colcon_pkg'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extensions ['colcon_meta']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extension 'colcon_meta'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extensions ['ros']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen) by extension 'ros'
+[1.245s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_eigen' with type 'ros.ament_cmake' and name 'tf2_eigen'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extensions ['ignore', 'ignore_ament_install']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extension 'ignore'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extension 'ignore_ament_install'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extension 'colcon_pkg'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extensions ['colcon_meta']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extension 'colcon_meta'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extensions ['ros']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_eigen_kdl) by extension 'ros'
+[1.246s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_eigen_kdl' with type 'ros.ament_cmake' and name 'tf2_eigen_kdl'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extension 'ignore'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extension 'ignore_ament_install'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extensions ['colcon_pkg']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extension 'colcon_pkg'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extensions ['colcon_meta']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extension 'colcon_meta'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extensions ['ros']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_geometry_msgs) by extension 'ros'
+[1.248s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_geometry_msgs' with type 'ros.ament_cmake' and name 'tf2_geometry_msgs'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extensions ['ignore', 'ignore_ament_install']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extension 'ignore'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extension 'ignore_ament_install'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extensions ['colcon_pkg']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extension 'colcon_pkg'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extensions ['colcon_meta']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extension 'colcon_meta'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extensions ['ros']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_kdl) by extension 'ros'
+[1.249s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_kdl' with type 'ros.ament_cmake' and name 'tf2_kdl'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extension 'ignore'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extension 'ignore_ament_install'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extensions ['colcon_pkg']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extension 'colcon_pkg'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extensions ['colcon_meta']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extension 'colcon_meta'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extensions ['ros']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_msgs) by extension 'ros'
+[1.251s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_msgs' with type 'ros.ament_cmake' and name 'tf2_msgs'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extension 'ignore'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extension 'ignore_ament_install'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extensions ['colcon_pkg']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extension 'colcon_pkg'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extensions ['colcon_meta']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extension 'colcon_meta'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extensions ['ros']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_py) by extension 'ros'
+[1.252s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_py' with type 'ros.ament_cmake' and name 'tf2_py'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extension 'ignore'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extension 'ignore_ament_install'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extensions ['colcon_pkg']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extension 'colcon_pkg'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extensions ['colcon_meta']
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extension 'colcon_meta'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extensions ['ros']
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros) by extension 'ros'
+[1.254s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_ros' with type 'ros.ament_cmake' and name 'tf2_ros'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extensions ['ignore', 'ignore_ament_install']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extension 'ignore'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extension 'ignore_ament_install'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extensions ['colcon_pkg']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extension 'colcon_pkg'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extensions ['colcon_meta']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extension 'colcon_meta'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extensions ['ros']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_ros_py) by extension 'ros'
+[1.255s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_ros_py' with type 'ros.ament_python' and name 'tf2_ros_py'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extension 'ignore_ament_install'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extensions ['colcon_pkg']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extension 'colcon_pkg'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extensions ['colcon_meta']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extension 'colcon_meta'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extensions ['ros']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_sensor_msgs) by extension 'ros'
+[1.257s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_sensor_msgs' with type 'ros.ament_cmake' and name 'tf2_sensor_msgs'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extension 'ignore'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extension 'ignore_ament_install'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extensions ['colcon_pkg']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extension 'colcon_pkg'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extensions ['colcon_meta']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extension 'colcon_meta'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extensions ['ros']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(geometry2/tf2_tools) by extension 'ros'
+[1.258s] DEBUG:colcon.colcon_core.package_identification:Package 'geometry2/tf2_tools' with type 'ros.ament_python' and name 'tf2_tools'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'ignore'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'ignore_ament_install'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['colcon_pkg']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'colcon_pkg'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['colcon_meta']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'colcon_meta'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['ros']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'ros'
+[1.260s] DEBUG:colcon.colcon_core.package_identification:Package 'kinect_ros2' with type 'ros.ament_cmake' and name 'kinect_ros2'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'ignore_ament_install'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'colcon_pkg'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extensions ['colcon_meta']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'colcon_meta'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'ros'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extensions ['cmake', 'python']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'cmake'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'python'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extensions ['python_setup_py']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2) by extension 'python_setup_py'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extension 'ignore_ament_install'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extensions ['colcon_pkg']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extension 'colcon_pkg'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extensions ['colcon_meta']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extension 'colcon_meta'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_bringup) by extension 'ros'
+[1.262s] DEBUG:colcon.colcon_core.package_identification:Package 'minion_stack_ros2/minion_bringup' with type 'ros.ament_cmake' and name 'minion_bringup'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extension 'ignore'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extension 'ignore_ament_install'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extensions ['colcon_pkg']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extension 'colcon_pkg'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extensions ['colcon_meta']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extension 'colcon_meta'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extensions ['ros']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_cartographer) by extension 'ros'
+[1.263s] DEBUG:colcon.colcon_core.package_identification:Package 'minion_stack_ros2/minion_cartographer' with type 'ros.ament_cmake' and name 'minion_cartographer'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extensions ['ignore', 'ignore_ament_install']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extension 'ignore'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extension 'ignore_ament_install'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extensions ['colcon_pkg']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extension 'colcon_pkg'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extensions ['colcon_meta']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extension 'colcon_meta'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extensions ['ros']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_nav2) by extension 'ros'
+[1.264s] DEBUG:colcon.colcon_core.package_identification:Package 'minion_stack_ros2/minion_nav2' with type 'ros.ament_cmake' and name 'minion_nav2'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extension 'ignore'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extension 'ignore_ament_install'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extensions ['colcon_pkg']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extension 'colcon_pkg'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extensions ['colcon_meta']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extension 'colcon_meta'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extensions ['ros']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/minion_stack_ros2) by extension 'ros'
+[1.265s] DEBUG:colcon.colcon_core.package_identification:Package 'minion_stack_ros2/minion_stack_ros2' with type 'ros.ament_cmake' and name 'minion_stack_ros2'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extension 'ignore'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extension 'ignore_ament_install'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extensions ['colcon_pkg']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extension 'colcon_pkg'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extensions ['colcon_meta']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extension 'colcon_meta'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extensions ['ros']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/tank_driver_ros2) by extension 'ros'
+[1.266s] DEBUG:colcon.colcon_core.package_identification:Package 'minion_stack_ros2/tank_driver_ros2' with type 'ros.ament_python' and name 'tank_driver_ros2'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'ignore'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'ignore_ament_install'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extensions ['colcon_pkg']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'colcon_pkg'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extensions ['colcon_meta']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'colcon_meta'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extensions ['ros']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'ros'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extensions ['cmake', 'python']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'cmake'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'python'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extensions ['python_setup_py']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(minion_stack_ros2/teleop_twist_joy) by extension 'python_setup_py'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'ignore_ament_install'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extensions ['colcon_pkg']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'colcon_pkg'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extensions ['colcon_meta']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'colcon_meta'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extensions ['ros']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'ros'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extensions ['cmake', 'python']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'cmake'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'python'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extensions ['python_setup_py']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera) by extension 'python_setup_py'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extension 'ignore_ament_install'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extensions ['colcon_pkg']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extension 'colcon_pkg'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extensions ['colcon_meta']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extension 'colcon_meta'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extensions ['ros']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_camera) by extension 'ros'
+[1.270s] DEBUG:colcon.colcon_core.package_identification:Package 'openni2_camera/openni2_camera' with type 'ros.ament_cmake' and name 'openni2_camera'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extension 'ignore'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extension 'ignore_ament_install'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extensions ['colcon_pkg']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extension 'colcon_pkg'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extensions ['colcon_meta']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extension 'colcon_meta'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extensions ['ros']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) by extension 'ros'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(openni2_camera/openni2_launch) ignored
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore_ament_install'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_pkg']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_pkg'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_meta']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_meta'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ros']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ros'
+[1.272s] DEBUG:colcon.colcon_core.package_identification:Package 'rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'ignore'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'ignore_ament_install'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['colcon_pkg']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'colcon_pkg'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['colcon_meta']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'colcon_meta'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['ros']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'ros'
+[1.274s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_laser_scan_matcher' with type 'ros.ament_cmake' and name 'ros2_laser_scan_matcher'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ignore'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ignore_ament_install'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['colcon_pkg']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'colcon_pkg'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['colcon_meta']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'colcon_meta'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['ros']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ros'
+[1.275s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'ignore'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'ignore_ament_install'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['colcon_pkg']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'colcon_pkg'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'colcon_meta'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['ros']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'ros'
+[1.277s] DEBUG:colcon.colcon_core.package_identification:Package 'slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore_ament_install'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_pkg']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_pkg'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_meta']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_meta'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ros']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ros'
+[1.278s] DEBUG:colcon.colcon_core.package_identification:Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[1.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 342 installed packages in /opt/ros/humble
+[1.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.534s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'tf2_eigen' is in: /opt/ros/humble
+	'tf2_geometry_msgs' is in: /opt/ros/humble
+	'tf2_msgs' is in: /opt/ros/humble
+	'slam_toolbox' is in: /opt/ros/humble
+	'tf2_sensor_msgs' is in: /opt/ros/humble
+	'tf2' is in: /opt/ros/humble
+	'tf2_ros' is in: /opt/ros/humble
+	'geometry2' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding geometry2 slam_toolbox tf2 tf2_eigen tf2_geometry_msgs tf2_msgs tf2_ros tf2_sensor_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[1.552s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.552s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/articubot_one', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.570s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/cartographer', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/cartographer', 'symlink_install': True, 'test_result_base': None}
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_first' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_force_configure' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'ament_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.588s] DEBUG:colcon.colcon_core.verb:Building package 'csm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/csm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/csm', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/csm', 'symlink_install': True, 'test_result_base': None}
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.605s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/kinect_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/kinect_ros2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/kinect_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'cmake_target' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'minion_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.622s] DEBUG:colcon.colcon_core.verb:Building package 'minion_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/minion_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/minion_bringup', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/minion_stack_ros2/minion_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'minion_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.639s] DEBUG:colcon.colcon_core.verb:Building package 'minion_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/minion_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/minion_cartographer', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/minion_stack_ros2/minion_cartographer', 'symlink_install': True, 'test_result_base': None}
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'cmake_args' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'cmake_target' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[1.657s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.657s] Level 5:colcon.colcon_core.verb:set package 'minion_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.657s] DEBUG:colcon.colcon_core.verb:Building package 'minion_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/minion_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/minion_nav2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/minion_stack_ros2/minion_nav2', 'symlink_install': True, 'test_result_base': None}
+[1.673s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'cmake_args' from command line to 'None'
+[1.673s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'cmake_target' from command line to 'None'
+[1.673s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'openni2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.674s] DEBUG:colcon.colcon_core.verb:Building package 'openni2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/openni2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/openni2_camera', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/openni2_camera/openni2_camera', 'symlink_install': True, 'test_result_base': None}
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.691s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/rplidar_ros', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/rplidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.713s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/sllidar_ros2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'cmake_target' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'tank_driver_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.730s] DEBUG:colcon.colcon_core.verb:Building package 'tank_driver_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tank_driver_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tank_driver_ros2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/minion_stack_ros2/tank_driver_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'cmake_args' from command line to 'None'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'cmake_target' from command line to 'None'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'cmake_clean_first' from command line to 'False'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'cmake_force_configure' from command line to 'False'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'ament_cmake_args' from command line to 'None'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'tf2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.747s] DEBUG:colcon.colcon_core.verb:Building package 'tf2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2', 'symlink_install': True, 'test_result_base': None}
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'cmake_args' from command line to 'None'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'cmake_target' from command line to 'None'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'tf2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.764s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_msgs', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'cmake_args' from command line to 'None'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'cmake_target' from command line to 'None'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'minion_stack_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.782s] DEBUG:colcon.colcon_core.verb:Building package 'minion_stack_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/minion_stack_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/minion_stack_ros2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/minion_stack_ros2/minion_stack_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'cmake_args' from command line to 'None'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'cmake_target' from command line to 'None'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'cmake_clean_cache' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'cmake_clean_first' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'cmake_force_configure' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'ament_cmake_args' from command line to 'None'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'catkin_cmake_args' from command line to 'None'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen_kdl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.799s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_eigen_kdl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_eigen_kdl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_eigen_kdl', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_eigen_kdl', 'symlink_install': True, 'test_result_base': None}
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'cmake_args' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'cmake_target' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'tf2_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.816s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_py', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_py', 'symlink_install': True, 'test_result_base': None}
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'cmake_target' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.833s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_ros', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_ros', 'symlink_install': True, 'test_result_base': None}
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'cmake_args' from command line to 'None'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'cmake_target' from command line to 'None'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.850s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'cmake_clean_cache' from command line to 'False'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'cmake_clean_first' from command line to 'False'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'cmake_force_configure' from command line to 'False'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'ament_cmake_args' from command line to 'None'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'catkin_cmake_args' from command line to 'None'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'tf2_bullet' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.851s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_bullet' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_bullet', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_bullet', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_bullet', 'symlink_install': True, 'test_result_base': None}
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'cmake_args' from command line to 'None'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'cmake_target' from command line to 'None'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'cmake_clean_cache' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'cmake_clean_first' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'cmake_force_configure' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'ament_cmake_args' from command line to 'None'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'catkin_cmake_args' from command line to 'None'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'tf2_eigen' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.868s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_eigen' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_eigen', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_eigen', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_eigen', 'symlink_install': True, 'test_result_base': None}
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'cmake_target' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'tf2_ros_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.884s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_ros_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_ros_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_ros_py', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_ros_py', 'symlink_install': True, 'test_result_base': None}
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'cmake_args' from command line to 'None'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'cmake_target' from command line to 'None'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'examples_tf2_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.901s] DEBUG:colcon.colcon_core.verb:Building package 'examples_tf2_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/examples_tf2_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/examples_tf2_py', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/examples_tf2_py', 'symlink_install': True, 'test_result_base': None}
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'cmake_args' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'cmake_target' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'tf2_geometry_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.918s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_geometry_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_geometry_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_geometry_msgs', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_geometry_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'cmake_args' from command line to 'None'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'cmake_target' from command line to 'None'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'cmake_clean_cache' from command line to 'False'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'cmake_clean_first' from command line to 'False'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'cmake_force_configure' from command line to 'False'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'ament_cmake_args' from command line to 'None'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'catkin_cmake_args' from command line to 'None'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'tf2_kdl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.935s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_kdl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_kdl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_kdl', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_kdl', 'symlink_install': True, 'test_result_base': None}
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'cmake_args' from command line to 'None'
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'cmake_target' from command line to 'None'
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.951s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.952s] Level 5:colcon.colcon_core.verb:set package 'tf2_sensor_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.952s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_sensor_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_sensor_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_sensor_msgs', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_sensor_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_args' from command line to 'None'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_target' from command line to 'None'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_clean_first' from command line to 'False'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_force_configure' from command line to 'False'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'ament_cmake_args' from command line to 'None'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[1.968s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.968s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/tf2_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/tf2_tools', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/tf2_tools', 'symlink_install': True, 'test_result_base': None}
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'cmake_args' from command line to 'None'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'cmake_target' from command line to 'None'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'cmake_clean_first' from command line to 'False'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'cmake_force_configure' from command line to 'False'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'ament_cmake_args' from command line to 'None'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'geometry2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.985s] DEBUG:colcon.colcon_core.verb:Building package 'geometry2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/geometry2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/geometry2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/geometry2', 'symlink_install': True, 'test_result_base': None}
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.002s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/rf2o_laser_odometry', 'symlink_install': True, 'test_result_base': None}
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.019s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/ros2_laser_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/ros2_laser_scan_matcher', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/ros2_laser_scan_matcher', 'symlink_install': True, 'test_result_base': None}
+[2.035s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[2.035s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[2.035s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.036s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[2.036s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[2.036s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[2.036s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[2.036s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[2.036s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.036s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/slam_toolbox', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/slam_toolbox', 'symlink_install': True, 'test_result_base': None}
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'cmake_target' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'cmake_clean_first' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'cmake_force_configure' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'ament_cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'test_tf2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.052s] DEBUG:colcon.colcon_core.verb:Building package 'test_tf2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/frese/ros2_ws/src/build/test_tf2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/frese/ros2_ws/src/install/test_tf2', 'merge_install': False, 'path': '/home/frese/ros2_ws/src/geometry2/test_tf2', 'symlink_install': True, 'test_result_base': None}
+[2.069s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[2.086s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'articubot_one'
+[2.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/frese/ros2_ws/src/articubot_one' with build type 'ament_cmake'
+[2.087s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/frese/ros2_ws/src/articubot_one'
+[2.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/src/install/articubot_one
+[3.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/src/install/articubot_one
+[3.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/src/build/articubot_one -- -j14 -l14
+[3.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/src/build/articubot_one -- -j14 -l14
+[3.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/src/build/articubot_one
+[3.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[3.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/frese/ros2_ws/src/build/articubot_one
+[3.719s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one' for CMake module files
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one' for CMake config files
+[3.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[3.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/bin'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/lib/python3.10/site-packages'
+[3.742s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/bin'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.ps1'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.dsv'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.sh'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.bash'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.zsh'
+[3.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/src/install/articubot_one/share/colcon-core/packages/articubot_one)
+[3.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one' for CMake module files
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one' for CMake config files
+[3.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[3.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[3.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[3.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/bin'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/lib/python3.10/site-packages'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/frese/ros2_ws/src/install/articubot_one/bin'
+[3.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.ps1'
+[3.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.dsv'
+[3.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.sh'
+[3.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.bash'
+[3.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.zsh'
+[3.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/frese/ros2_ws/src/install/articubot_one/share/colcon-core/packages/articubot_one)
+[3.870s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'articubot_one' finished with '0'
+[3.870s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'cartographer'
+[3.871s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/frese/ros2_ws/src/cartographer' with build type 'cmake'
+[3.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/frese/ros2_ws/src/cartographer'
+[3.890s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.890s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/src/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/src/install/cartographer
+[5.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/frese/ros2_ws/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/frese/ros2_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/frese/ros2_ws/src/install/cartographer
+[5.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/frese/ros2_ws/src/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/frese/ros2_ws/src/build/cartographer -- -j14 -l14

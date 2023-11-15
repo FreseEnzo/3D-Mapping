@@ -1,0 +1,259 @@
+[0.000000] (-) TimerEvent: {}
+[0.000559] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000642] (cartographer) JobQueued: {'identifier': 'cartographer', 'dependencies': OrderedDict()}
+[0.000692] (csm) JobQueued: {'identifier': 'csm', 'dependencies': OrderedDict()}
+[0.000750] (kinect_ros2) JobQueued: {'identifier': 'kinect_ros2', 'dependencies': OrderedDict()}
+[0.000804] (minion_bringup) JobQueued: {'identifier': 'minion_bringup', 'dependencies': OrderedDict()}
+[0.000849] (minion_cartographer) JobQueued: {'identifier': 'minion_cartographer', 'dependencies': OrderedDict()}
+[0.000902] (minion_nav2) JobQueued: {'identifier': 'minion_nav2', 'dependencies': OrderedDict()}
+[0.000961] (openni2_camera) JobQueued: {'identifier': 'openni2_camera', 'dependencies': OrderedDict()}
+[0.001047] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001102] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001151] (tank_driver_ros2) JobQueued: {'identifier': 'tank_driver_ros2', 'dependencies': OrderedDict()}
+[0.001198] (tf2) JobQueued: {'identifier': 'tf2', 'dependencies': OrderedDict()}
+[0.001251] (tf2_msgs) JobQueued: {'identifier': 'tf2_msgs', 'dependencies': OrderedDict()}
+[0.001303] (minion_stack_ros2) JobQueued: {'identifier': 'minion_stack_ros2', 'dependencies': OrderedDict([('tank_driver_ros2', '/home/frese/ros2_ws/src/install/tank_driver_ros2')])}
+[0.001362] (tf2_eigen_kdl) JobQueued: {'identifier': 'tf2_eigen_kdl', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2')])}
+[0.001418] (tf2_py) JobQueued: {'identifier': 'tf2_py', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2')])}
+[0.001473] (tf2_ros) JobQueued: {'identifier': 'tf2_ros', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs')])}
+[0.001531] (tf2_bullet) JobQueued: {'identifier': 'tf2_bullet', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros')])}
+[0.001588] (tf2_eigen) JobQueued: {'identifier': 'tf2_eigen', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros')])}
+[0.001661] (tf2_ros_py) JobQueued: {'identifier': 'tf2_ros_py', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py')])}
+[0.001718] (examples_tf2_py) JobQueued: {'identifier': 'examples_tf2_py', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py')])}
+[0.001776] (tf2_geometry_msgs) JobQueued: {'identifier': 'tf2_geometry_msgs', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py')])}
+[0.001837] (tf2_kdl) JobQueued: {'identifier': 'tf2_kdl', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py')])}
+[0.001895] (tf2_sensor_msgs) JobQueued: {'identifier': 'tf2_sensor_msgs', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py')])}
+[0.002267] (tf2_tools) JobQueued: {'identifier': 'tf2_tools', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py')])}
+[0.002543] (geometry2) JobQueued: {'identifier': 'geometry2', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_eigen_kdl', '/home/frese/ros2_ws/src/install/tf2_eigen_kdl'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_bullet', '/home/frese/ros2_ws/src/install/tf2_bullet'), ('tf2_eigen', '/home/frese/ros2_ws/src/install/tf2_eigen'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py'), ('tf2_geometry_msgs', '/home/frese/ros2_ws/src/install/tf2_geometry_msgs'), ('tf2_kdl', '/home/frese/ros2_ws/src/install/tf2_kdl'), ('tf2_sensor_msgs', '/home/frese/ros2_ws/src/install/tf2_sensor_msgs'), ('tf2_tools', '/home/frese/ros2_ws/src/install/tf2_tools')])}
+[0.002663] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py'), ('tf2_geometry_msgs', '/home/frese/ros2_ws/src/install/tf2_geometry_msgs')])}
+[0.002734] (ros2_laser_scan_matcher) JobQueued: {'identifier': 'ros2_laser_scan_matcher', 'dependencies': OrderedDict([('csm', '/home/frese/ros2_ws/src/install/csm'), ('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py'), ('tf2_geometry_msgs', '/home/frese/ros2_ws/src/install/tf2_geometry_msgs')])}
+[0.002807] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py'), ('tf2_geometry_msgs', '/home/frese/ros2_ws/src/install/tf2_geometry_msgs'), ('tf2_sensor_msgs', '/home/frese/ros2_ws/src/install/tf2_sensor_msgs')])}
+[0.002871] (test_tf2) JobQueued: {'identifier': 'test_tf2', 'dependencies': OrderedDict([('tf2', '/home/frese/ros2_ws/src/install/tf2'), ('tf2_msgs', '/home/frese/ros2_ws/src/install/tf2_msgs'), ('tf2_py', '/home/frese/ros2_ws/src/install/tf2_py'), ('tf2_ros', '/home/frese/ros2_ws/src/install/tf2_ros'), ('tf2_bullet', '/home/frese/ros2_ws/src/install/tf2_bullet'), ('tf2_eigen', '/home/frese/ros2_ws/src/install/tf2_eigen'), ('tf2_ros_py', '/home/frese/ros2_ws/src/install/tf2_ros_py'), ('tf2_geometry_msgs', '/home/frese/ros2_ws/src/install/tf2_geometry_msgs'), ('tf2_kdl', '/home/frese/ros2_ws/src/install/tf2_kdl')])}
+[0.002940] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.072146] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.074411] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.074532] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/frese/ros2_ws/src/build/articubot_one', '--', '-j14', '-l14'], 'cwd': '/home/frese/ros2_ws/src/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'frese'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/frese'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('ROS_IP', '10.0.2.15'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b44d88f03b2079face5826f654400d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frese'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'frese'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Frese:@/tmp/.ICE-unix/1576,unix/Frese:/tmp/.ICE-unix/1576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99ee7970_2070_45e6_a4cd_93c11e25fc19'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SY0XD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311/'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/frese/ros2_ws/src/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b44d88f03b2079face5826f654400d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '10.0.2.15'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099364] (-) TimerEvent: {}
+[0.191944] (articubot_one) CommandEnded: {'returncode': 0}
+[0.199761] (-) TimerEvent: {}
+[0.226898] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[0.240526] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/frese/ros2_ws/src/build/articubot_one'], 'cwd': '/home/frese/ros2_ws/src/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'frese'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/frese'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('ROS_IP', '10.0.2.15'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b44d88f03b2079face5826f654400d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frese'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'frese'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Frese:@/tmp/.ICE-unix/1576,unix/Frese:/tmp/.ICE-unix/1576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99ee7970_2070_45e6_a4cd_93c11e25fc19'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SY0XD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311/'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/frese/ros2_ws/src/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b44d88f03b2079face5826f654400d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '10.0.2.15'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.252213] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.255701] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.258250] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[0.258887] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[0.259225] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[0.259411] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[0.259715] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[0.259887] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[0.260054] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[0.260251] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[0.260446] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[0.260739] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[0.260946] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[0.261200] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[0.261490] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[0.261655] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[0.261936] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[0.262221] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[0.262505] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[0.262795] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[0.263081] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[0.263346] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[0.263817] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[0.264267] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[0.264593] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[0.266116] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[0.266337] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[0.266737] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[0.267072] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[0.267434] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[0.267798] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[0.267995] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[0.268318] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[0.268975] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[0.269187] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[0.269889] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[0.270095] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[0.271330] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[0.271826] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[0.272454] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[0.272676] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[0.273141] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[0.273575] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[0.273912] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[0.274302] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[0.274704] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[0.275108] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[0.275301] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.dsv\n'}
+[0.286519] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[0.287643] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[0.288336] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[0.288762] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/frese/ros2_ws/src/install/articubot_one/share/articubot_one/package.xml\n'}
+[0.291786] (articubot_one) CommandEnded: {'returncode': 0}
+[0.300273] (-) TimerEvent: {}
+[0.400811] (-) TimerEvent: {}
+[0.498063] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[0.499058] (cartographer) JobStarted: {'identifier': 'cartographer'}
+[0.501264] (-) TimerEvent: {}
+[0.567264] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'cmake'}
+[0.571785] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'build'}
+[0.571852] (cartographer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/frese/ros2_ws/src/build/cartographer', '--', '-j14', '-l14'], 'cwd': '/home/frese/ros2_ws/src/build/cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'frese'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/frese'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('ROS_IP', '10.0.2.15'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b44d88f03b2079face5826f654400d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frese'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'frese'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Frese:@/tmp/.ICE-unix/1576,unix/Frese:/tmp/.ICE-unix/1576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99ee7970_2070_45e6_a4cd_93c11e25fc19'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SY0XD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311/'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/frese/ros2_ws/src/build/cartographer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b44d88f03b2079face5826f654400d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '10.0.2.15'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.602262] (-) TimerEvent: {}
+[0.679225] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer\x1b[0m\n'}
+[0.679859] (cartographer) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.696276] (cartographer) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/configuration_file_resolver.cc.o\x1b[0m\n'}
+[0.697663] (cartographer) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/fixed_ratio_sampler.cc.o\x1b[0m\n'}
+[0.699198] (cartographer) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/time.cc.o\x1b[0m\n'}
+[0.699471] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o\x1b[0m\n'}
+[0.700380] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/coloring_points_processor.cc.o\x1b[0m\n'}
+[0.702444] (-) TimerEvent: {}
+[0.703947] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/histogram.cc.o\x1b[0m\n'}
+[0.705303] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o\x1b[0m\n'}
+[0.707084] (cartographer) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/autogenerate_ground_truth.cc.o\x1b[0m\n'}
+[0.707523] (cartographer) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/color.cc.o\x1b[0m\n'}
+[0.707898] (cartographer) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/relations_text_file.cc.o\x1b[0m\n'}
+[0.708878] (cartographer) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/ceres_solver_options.cc.o\x1b[0m\n'}
+[0.715697] (cartographer) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o\x1b[0m\n'}
+[0.716941] (cartographer) StdoutLine: {'line': b'[  4%] Built target cartographer_detect_changes\n'}
+[0.739186] (cartographer) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/counting_points_processor.cc.o\x1b[0m\n'}
+[0.802685] (-) TimerEvent: {}
+[0.903134] (-) TimerEvent: {}
+[1.004576] (-) TimerEvent: {}
+[1.105437] (-) TimerEvent: {}
+[1.206051] (-) TimerEvent: {}
+[1.306454] (-) TimerEvent: {}
+[1.406946] (-) TimerEvent: {}
+[1.507290] (-) TimerEvent: {}
+[1.608069] (-) TimerEvent: {}
+[1.708583] (-) TimerEvent: {}
+[1.809130] (-) TimerEvent: {}
+[1.909570] (-) TimerEvent: {}
+[2.010953] (-) TimerEvent: {}
+[2.112856] (-) TimerEvent: {}
+[2.213572] (-) TimerEvent: {}
+[2.314879] (-) TimerEvent: {}
+[2.415353] (-) TimerEvent: {}
+[2.516090] (-) TimerEvent: {}
+[2.616595] (-) TimerEvent: {}
+[2.717228] (-) TimerEvent: {}
+[2.818300] (-) TimerEvent: {}
+[2.920640] (-) TimerEvent: {}
+[3.024684] (-) TimerEvent: {}
+[3.127744] (-) TimerEvent: {}
+[3.218478] (cartographer) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/draw_trajectories.cc.o\x1b[0m\n'}
+[3.228091] (-) TimerEvent: {}
+[3.329198] (-) TimerEvent: {}
+[3.414573] (cartographer) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/file_writer.cc.o\x1b[0m\n'}
+[3.429521] (-) TimerEvent: {}
+[3.522011] (cartographer) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/fixed_ratio_sampling_points_processor.cc.o\x1b[0m\n'}
+[3.531969] (-) TimerEvent: {}
+[3.544061] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/frame_id_filtering_points_processor.cc.o\x1b[0m\n'}
+[3.632263] (-) TimerEvent: {}
+[3.732863] (-) TimerEvent: {}
+[3.833670] (-) TimerEvent: {}
+[3.906524] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/hybrid_grid_points_processor.cc.o\x1b[0m\n'}
+[3.933909] (-) TimerEvent: {}
+[4.036002] (-) TimerEvent: {}
+[4.110091] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/image.cc.o\x1b[0m\n'}
+[4.136325] (-) TimerEvent: {}
+[4.237156] (-) TimerEvent: {}
+[4.340614] (-) TimerEvent: {}
+[4.424560] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/intensity_to_color_points_processor.cc.o\x1b[0m\n'}
+[4.441337] (-) TimerEvent: {}
+[4.544619] (-) TimerEvent: {}
+[4.645382] (-) TimerEvent: {}
+[4.746166] (-) TimerEvent: {}
+[4.847872] (-) TimerEvent: {}
+[4.948543] (-) TimerEvent: {}
+[5.049170] (-) TimerEvent: {}
+[5.149699] (-) TimerEvent: {}
+[5.252702] (-) TimerEvent: {}
+[5.353624] (-) TimerEvent: {}
+[5.454174] (-) TimerEvent: {}
+[5.464724] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/in_memory_proto_stream.cc.o\x1b[0m\n'}
+[5.556579] (-) TimerEvent: {}
+[5.601729] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/mapping_state_serialization.cc.o\x1b[0m\n'}
+[5.602178] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_info.cc.o\x1b[0m\n'}
+[5.656849] (-) TimerEvent: {}
+[5.761224] (-) TimerEvent: {}
+[5.796179] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_migrate.cc.o\x1b[0m\n'}
+[5.862918] (-) TimerEvent: {}
+[5.964893] (-) TimerEvent: {}
+[6.068618] (-) TimerEvent: {}
+[6.169388] (-) TimerEvent: {}
+[6.272599] (-) TimerEvent: {}
+[6.293455] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/min_max_range_filtering_points_processor.cc.o\x1b[0m\n'}
+[6.359136] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/outlier_removing_points_processor.cc.o\x1b[0m\n'}
+[6.372836] (-) TimerEvent: {}
+[6.476606] (-) TimerEvent: {}
+[6.577320] (-) TimerEvent: {}
+[6.679506] (-) TimerEvent: {}
+[6.780263] (-) TimerEvent: {}
+[6.881046] (-) TimerEvent: {}
+[6.981615] (-) TimerEvent: {}
+[7.084632] (-) TimerEvent: {}
+[7.185251] (-) TimerEvent: {}
+[7.276876] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:657: CMakeFiles/cartographer.dir/cartographer/io/internal/in_memory_proto_stream.cc.o] Interrupt\n'}
+[7.277378] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:601: CMakeFiles/cartographer.dir/cartographer/io/frame_id_filtering_points_processor.cc.o] Interrupt\n'}
+[7.277729] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:615: CMakeFiles/cartographer.dir/cartographer/io/hybrid_grid_points_processor.cc.o] Interrupt\n'}
+[7.278111] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:671: CMakeFiles/cartographer.dir/cartographer/io/internal/mapping_state_serialization.cc.o] Interrupt\n'}
+[7.278313] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:643: CMakeFiles/cartographer.dir/cartographer/io/intensity_to_color_points_processor.cc.o] Interrupt\n'}
+[7.278486] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:685: CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_info.cc.o] Interrupt\n'}
+[7.278669] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:713: CMakeFiles/cartographer.dir/cartographer/io/min_max_range_filtering_points_processor.cc.o] Interrupt\n'}
+[7.278846] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:629: CMakeFiles/cartographer.dir/cartographer/io/image.cc.o] Interrupt\n'}
+[7.279004] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:699: CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_migrate.cc.o] Interrupt\n'}
+[7.279168] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:727: CMakeFiles/cartographer.dir/cartographer/io/outlier_removing_points_processor.cc.o] Interrupt\n'}
+[7.279329] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:559: CMakeFiles/cartographer.dir/cartographer/io/draw_trajectories.cc.o] Interrupt\n'}
+[7.279494] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:587: CMakeFiles/cartographer.dir/cartographer/io/fixed_ratio_sampling_points_processor.cc.o] Interrupt\n'}
+[7.279654] (cartographer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:489: CMakeFiles/cartographer.dir/cartographer/ground_truth/autogenerate_ground_truth.cc.o] Interrupt\n'}
+[7.279812] (cartographer) StderrLine: {'line': b'gmake[2]: *** [googletest/CMakeFiles/gtest.dir/build.make:76: googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt\n'}
+[7.279964] (cartographer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/cartographer.dir/all] Interrupt\n'}
+[7.280118] (cartographer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:2927: googletest/CMakeFiles/gtest.dir/all] Interrupt\n'}
+[7.280270] (cartographer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[7.289708] (-) TimerEvent: {}
+[7.347825] (cartographer) CommandEnded: {'returncode': -2}
+[7.389916] (-) TimerEvent: {}
+[7.490543] (-) TimerEvent: {}
+[7.591103] (-) TimerEvent: {}
+[7.691589] (-) TimerEvent: {}
+[7.793037] (-) TimerEvent: {}
+[7.893744] (-) TimerEvent: {}
+[7.994364] (-) TimerEvent: {}
+[8.094941] (-) TimerEvent: {}
+[8.195560] (-) TimerEvent: {}
+[8.296401] (-) TimerEvent: {}
+[8.397010] (-) TimerEvent: {}
+[8.497445] (-) TimerEvent: {}
+[8.598466] (-) TimerEvent: {}
+[8.699082] (-) TimerEvent: {}
+[8.757402] (cartographer) JobEnded: {'identifier': 'cartographer', 'rc': 'SIGINT'}
+[8.758707] (csm) JobSkipped: {'identifier': 'csm'}
+[8.758806] (kinect_ros2) JobSkipped: {'identifier': 'kinect_ros2'}
+[8.758926] (minion_bringup) JobSkipped: {'identifier': 'minion_bringup'}
+[8.758981] (minion_cartographer) JobSkipped: {'identifier': 'minion_cartographer'}
+[8.759027] (minion_nav2) JobSkipped: {'identifier': 'minion_nav2'}
+[8.759073] (openni2_camera) JobSkipped: {'identifier': 'openni2_camera'}
+[8.759116] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[8.759162] (sllidar_ros2) JobSkipped: {'identifier': 'sllidar_ros2'}
+[8.759205] (tank_driver_ros2) JobSkipped: {'identifier': 'tank_driver_ros2'}
+[8.759249] (tf2) JobSkipped: {'identifier': 'tf2'}
+[8.759295] (tf2_msgs) JobSkipped: {'identifier': 'tf2_msgs'}
+[8.759338] (minion_stack_ros2) JobSkipped: {'identifier': 'minion_stack_ros2'}
+[8.759382] (tf2_eigen_kdl) JobSkipped: {'identifier': 'tf2_eigen_kdl'}
+[8.759425] (tf2_py) JobSkipped: {'identifier': 'tf2_py'}
+[8.759468] (tf2_ros) JobSkipped: {'identifier': 'tf2_ros'}
+[8.759509] (tf2_bullet) JobSkipped: {'identifier': 'tf2_bullet'}
+[8.759560] (tf2_eigen) JobSkipped: {'identifier': 'tf2_eigen'}
+[8.759610] (tf2_ros_py) JobSkipped: {'identifier': 'tf2_ros_py'}
+[8.759651] (examples_tf2_py) JobSkipped: {'identifier': 'examples_tf2_py'}
+[8.759692] (tf2_geometry_msgs) JobSkipped: {'identifier': 'tf2_geometry_msgs'}
+[8.759733] (tf2_kdl) JobSkipped: {'identifier': 'tf2_kdl'}
+[8.759774] (tf2_sensor_msgs) JobSkipped: {'identifier': 'tf2_sensor_msgs'}
+[8.759816] (tf2_tools) JobSkipped: {'identifier': 'tf2_tools'}
+[8.759857] (geometry2) JobSkipped: {'identifier': 'geometry2'}
+[8.759898] (rf2o_laser_odometry) JobSkipped: {'identifier': 'rf2o_laser_odometry'}
+[8.759939] (ros2_laser_scan_matcher) JobSkipped: {'identifier': 'ros2_laser_scan_matcher'}
+[8.759980] (slam_toolbox) JobSkipped: {'identifier': 'slam_toolbox'}
+[8.760021] (test_tf2) JobSkipped: {'identifier': 'test_tf2'}
+[8.760063] (-) EventReactorShutdown: {}

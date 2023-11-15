@@ -1,0 +1,15 @@
+/home/frese/ros2_ws/install/rtabmap_ros/share/ament_index/resource_index/package_run_dependencies/rtabmap_ros
+/home/frese/ros2_ws/install/rtabmap_ros/share/ament_index/resource_index/parent_prefix_path/rtabmap_ros
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.sh
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.dsv
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/environment/path.sh
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/environment/path.dsv
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.bash
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.sh
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.zsh
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.dsv
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/package.dsv
+/home/frese/ros2_ws/install/rtabmap_ros/share/ament_index/resource_index/packages/rtabmap_ros
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake
+/home/frese/ros2_ws/install/rtabmap_ros/share/rtabmap_ros/package.xml

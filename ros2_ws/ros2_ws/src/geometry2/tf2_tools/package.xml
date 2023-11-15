@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>tf2_tools</name>
+  <version>0.33.2</version>
+  <description>
+    tf2_tools
+  </description>
+
+  <maintainer email="alejandro@openrobotics.org">Alejandro Hernandez Cordero</maintainer>
+  <maintainer email="clalancette@openrobotics.org">Chris Lalancette</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://www.ros.org/wiki/tf2_tools</url>
+
+  <author email="tfoote@osrfoundation.org">Tully Foote</author>
+  <author>Wim Meeussen</author>
+
+  <!-- Required for automatic documentation generation (using sphinx-autodoc)
+  for modules in this package that import the tf2_ros module from the
+  tf2_ros_py package. -->
+  <doc_depend>tf2_ros</doc_depend>
+
+  <exec_depend>graphviz</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>tf2_msgs</exec_depend>
+  <exec_depend>tf2_py</exec_depend>
+  <exec_depend>tf2_ros_py</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>

@@ -1,0 +1,15 @@
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/ament_index/resource_index/package_run_dependencies/minion_stack_ros2
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/ament_index/resource_index/parent_prefix_path/minion_stack_ros2
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/environment/ament_prefix_path.sh
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/environment/ament_prefix_path.dsv
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/environment/path.sh
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/environment/path.dsv
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/local_setup.bash
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/local_setup.sh
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/local_setup.zsh
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/local_setup.dsv
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/package.dsv
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/ament_index/resource_index/packages/minion_stack_ros2
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/cmake/minion_stack_ros2Config.cmake
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/cmake/minion_stack_ros2Config-version.cmake
+/home/frese/ros2_ws/src/install/minion_stack_ros2/share/minion_stack_ros2/package.xml
